@@ -1,0 +1,178 @@
+@media only screen and (max-width: 550px) {
+  .section-a {
+    min-height: 1000px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* header {
+    padding: 0.5rem 0.3rem;
+  } */
+  .container {
+    max-width: 720px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  /* hide classes */
+  .logo2,
+  .nav__list-item,
+  .section-a video {
+    display: none;
+  }
+
+  .section-a {
+    height: 100vh;
+    max-height: 1050px;
+    background-image: url(//cdn.nearpod.com/1590012595755/img/new/home2020/home-414.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .mask {
+    background: linear-gradient(to top, #0a89e8 0, rgba(0, 168, 255, 0) 100%);
+  }
+
+  .wrapper {
+    margin: auto;
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .menu-wrap .menu {
+    width: 100%;
+    height: 86%;
+  }
+
+  .showcase-content {
+    height: 800px;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .showcase-content .showcase-title {
+    max-width: 530px;
+    font-size: 38px;
+    padding-top: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    padding-left: unset;
+    align-content: center;
+    align-items: center;
+    margin: 10px auto 20px;
+  }
+
+  .boxes-container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .boxes-container .box-element {
+    margin-bottom: 25px;
+  }
+
+  /* section b */
+
+  .section-b {
+    padding: 35px;
+  }
+
+  .demo-text {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  /* section c */
+
+  .section-c {
+    margin: 4rem 0;
+    padding: 2rem 2rem;
+  }
+
+  .section-c .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  .feat-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  .feat-text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+  }
+
+  .section-d {
+    padding: 104px 8px;
+    height: 100vh;
+  }
+
+  .section-d h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+  }
+
+  .section-d h3 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+  }
+
+  .section-d p {
+    color: #fff;
+    max-width: 850px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 46px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .section-d p a span {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .section-d p a span:hover {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .section-footer .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .footer .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0.5rem;
+  }
+
+  .footer .footer-4 ul li {
+    font-size: 0.8rem;
+  }
+}
+
+/* @media only screen and (max-width: 1000px) {
+  .showcase-content {
+    align-items: center;
+    margin-top: 55px;
+  }
+} */
